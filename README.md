@@ -52,7 +52,7 @@ See the [examples/](examples/) folder for more information.
 
 | Name | Type |
 |------|------|
-| [aws_iam_policy.cni-metrics-helper](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy) | resource |
+| [aws_iam_policy.cni_metrics_helper](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy) | resource |
 | [helm_release.cni_metrics_helper](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release) | resource |
 | [aws_iam_policy_document.cni_metrics_helper_irsa](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) | data source |
 
