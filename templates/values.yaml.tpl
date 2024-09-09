@@ -3,8 +3,8 @@
 nameOverride: cni-metrics-helper
 
 image:
-  region: us-west-2
-  tag: v1.18.2
+  region: eu-west-2
+  tag: v1.18.3
   account: "602401143452"
   domain: "amazonaws.com"
   # Set to use custom image
@@ -24,8 +24,8 @@ serviceAccount:
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
   name:
-  annotations: {}
-    # eks.amazonaws.com/role-arn: "${eks_service_account}"  
+  annotations:
+    eks.amazonaws.com/role-arn: "${eks_service_account}"  
 
 resources: {}
 
